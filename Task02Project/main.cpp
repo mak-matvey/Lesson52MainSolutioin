@@ -11,10 +11,10 @@ int main(void)
 	cin >> number;
 
 	cout << "Quantity of divs of your number (loop): " <<
-		divs_byLoop(number) << endl;
+		divs_by_loop(number) << endl;
 
 	cout << "Quantity of divs of your number (recursion): " <<
-		divsRecursive(number) << endl;
+		divs_recursive(number) << endl;
 
 	return 0;
 }

@@ -13,11 +13,13 @@ int main(void)
 	random_init(array, SIZE, 0, 10);
 	cout << "Array: " << convert(array, SIZE) << endl;
 
-	cout << "Sum of elements(by loop): " <<
-		get_sum_of_sequence_by_loop(array, SIZE) << endl;
+	reverse_array_by_loop(array, SIZE);
 
-	cout << "Sum of elements(by recursion): " <<
-		get_sum_of_sequence_by_recursion(array, SIZE) << endl;
+	cout << "Reversed array (by loop): " << convert(array, SIZE) << endl;
+
+	reverse_array_by_recursion(array, SIZE);
+
+	cout << "Reversed array (by recursion): " << convert(array, SIZE) << endl;
 
 	return 0;
 }

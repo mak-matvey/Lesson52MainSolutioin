@@ -1,6 +1,6 @@
 #include "logic.h"
 
-bool isPalindrome_byLoop(string str)
+bool is_palindrome_by_loop(string str)
 {
 
     int left = 0;
@@ -20,7 +20,7 @@ bool isPalindrome_byLoop(string str)
     return true;
 }
 
-bool isPalindrome_byRecursion(string str, int left, int right)
+bool is_palindrome_by_recursion(string str, int left, int right)
 {
 
     if (left >= right) {
@@ -31,12 +31,12 @@ bool isPalindrome_byRecursion(string str, int left, int right)
         return false;
     }
 
-    return isPalindrome_byRecursion(str, left + 1, right - 1);
+    return is_palindrome_by_recursion(str, left + 1, right - 1);
 }
 
 // Вспомогательная функция, принимающая только строку
-bool isPalindrome(string str)
+bool is_palindrome(string str)
 {
 
-    return isPalindrome_byRecursion(str, 0, str.length() - 1);
+    return is_palindrome_by_recursion(str, 0, str.length() - 1);
 }

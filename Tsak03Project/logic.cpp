@@ -1,16 +1,18 @@
-float get_sum_of_sequence_byLoop(int* array, int size)
+#include "logic.h"
+
+float get_sum_of_sequence_by_loop(int* array, int size)
 {
 	int sum = 0;
 
-	for (int i = 0; i <= size; i++)
+	for (int i = 0; i < size; i++)
 	{
-		sum += i;
+		sum += array[i];
 	}
 
 	return sum;
 }
 
-float get_sum_of_sequence_byRecursion(int* array, int size)
+float get_sum_of_sequence_by_recursion(int* array, int size)
 {
     if (size < 1)
     {
@@ -23,5 +25,5 @@ float get_sum_of_sequence_byRecursion(int* array, int size)
     }
 
     return array[size - 1] +
-        get_sum_of_sequence_byRecursion(array, size - 1);
+        get_sum_of_sequence_by_recursion(array, size - 1);
 }

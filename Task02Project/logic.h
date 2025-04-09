@@ -1,5 +1,5 @@
 #pragma once
 
-int divs_byLoop(int number);
-int divs_byRecursion(int number, int d);
-int divsRecursive(int number);
+int divs_by_loop(int number);
+int divs_by_recursion(int number, int d);
+int divs_recursive(int number);

@@ -1,7 +1,7 @@
 #include "logic.h"
 #include <cmath>
 
-int divs_byLoop(int number)
+int divs_by_loop(int number)
 {
 
     if (number <= 1)
@@ -30,7 +30,7 @@ int divs_byLoop(int number)
     return count;
 }
 
-int divs_byRecursion(int number, int d)
+int divs_by_recursion(int number, int d)
 {
     int sqrtN = sqrt(number);
 
@@ -54,7 +54,7 @@ int divs_byRecursion(int number, int d)
 }
 
 // Вспомогательная функция
-int divsRecursive(int number)
+int divs_recursive(int number)
 {
     if (number <= 1)
     {

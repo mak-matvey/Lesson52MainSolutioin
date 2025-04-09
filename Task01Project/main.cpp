@@ -9,10 +9,10 @@ int main(void)
 	cin >> str;
 
 	cout << "Is your string is palindrome (by loop)? " <<
-		(isPalindrome_byLoop(str) ? "Yes" : "No") << endl;
+		(is_palindrome_by_loop(str) ? "Yes" : "No") << endl;
 
 	cout << "Is your string is palindrome (by Recursion)? " <<
-		(isPalindrome(str) ? "Yes" : "No") << endl;
+		(is_palindrome(str) ? "Yes" : "No") << endl;
 
 	return 0;
 }
