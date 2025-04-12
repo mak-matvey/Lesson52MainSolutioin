@@ -26,10 +26,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="logic.h">
+    <ClInclude Include="util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Tsak03Project\util.h">
+    <ClInclude Include="logic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a12fdaeb-fb0b-4f41-b461-c72b987e09fc}</ProjectGuid>
-    <RootNamespace>Task04Project</RootNamespace>
+    <ProjectGuid>{cc0dc567-fa74-48ec-ba3c-b19143aeceb6}</ProjectGuid>
+    <RootNamespace>Task05Project</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -132,8 +132,8 @@
     <ClCompile Include="util.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Tsak03Project\util.h" />
     <ClInclude Include="logic.h" />
+    <ClInclude Include="util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
